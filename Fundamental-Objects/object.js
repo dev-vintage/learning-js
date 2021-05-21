@@ -18,6 +18,14 @@ When called in a non-constructor context, Object behaves identically to new Obje
 
 */
 
+/*Examples:*/
+/*The following examples store an empty Object object in o:*/
+
+/*
+let o = new Object()
+let o = new Object(undefined)
+let o = new Object(null)
+*/
 
 
 
