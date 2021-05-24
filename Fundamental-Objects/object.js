@@ -27,5 +27,34 @@ let o = new Object(undefined)
 let o = new Object(null)
 */
 
+/* Object() Constructor
+The Object creates an object wrapper for the given value.
+
+If the value is null or undefined, it will create and return an empty object.
+Otherwise, it will return an object of a Type that corresponds to the given value.
+If the value is an object already, it will return the value.
+When called in a non-constructor context, Object behaves identically to new Object().
+*/
+
+/* Syntax */
+
+//new Object();
+
+/* Creating a new Object */
+
+let o = new Object();
+o.foo = 42;
+
+console.log(o);
+
+// Object { foo: 42 }
+
+
+
+
+
+
+
+
 
 
