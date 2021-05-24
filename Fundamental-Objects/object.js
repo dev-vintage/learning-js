@@ -49,6 +49,11 @@ console.log(o);
 
 // Object { foo: 42 }
 
+/* Using Object given undefined and null types */
+
+let o2 = new Object(null);
+
+
 
 
 
